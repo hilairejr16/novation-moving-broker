@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="600" height="200">
+  <defs>
+    <style>
+      .navy{fill:#0B2A4A;}
+      .orange{fill:#F4862E;}
+      .white{fill:#FFFFFF;}
+    </style>
+  </defs>
+
+  <!-- Icon -->
+  <g transform="translate(10,10)">
+    <!-- road -->
+    <rect x="0" y="150" width="180" height="30" class="navy"/>
+    <rect x="20" y="162" width="20" height="6" class="orange"/>
+    <rect x="60" y="162" width="20" height="6" class="orange"/>
+    <rect x="100" y="162" width="20" height="6" class="orange"/>
+    <rect x="140" y="162" width="20" height="6" class="orange"/>
+
+    <!-- van body -->
+    <rect x="15" y="70" width="120" height="60" rx="8" class="navy"/>
+    <!-- van cab -->
+    <path d="M135 90 h35 a10 10 0 0 1 10 10 v20 a10 10 0 0 1 -10 10 h-35 z" class="orange"/>
+    <!-- window -->
+    <rect x="150" y="98" width="20" height="14" rx="2" class="white"/>
+
+    <!-- medical cross subtle on side -->
+    <g transform="translate(60,85)">
+      <rect x="14" y="0" width="6" height="30" class="white" opacity="0.85"/>
+      <rect x="0" y="14" width="34" height="6" class="white" opacity="0.85"/>
+    </g>
+
+    <!-- wheels -->
+    <circle cx="45" cy="135" r="14" class="navy"/>
+    <circle cx="45" cy="135" r="6" class="white"/>
+    <circle cx="125" cy="135" r="14" class="navy"/>
+    <circle cx="125" cy="135" r="6" class="white"/>
+    <circle cx="160" cy="135" r="11" class="navy"/>
+    <circle cx="160" cy="135" r="4.5" class="white"/>
+  </g>
+
+  <!-- Wordmark -->
+  <g transform="translate(210,70)">
+    <text x="0" y="30" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="800" class="navy">NOVATION</text>
+    <text x="0" y="62" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600" letter-spacing="3" class="orange">MOVING BROKER</text>
+  </g>
+</svg>
